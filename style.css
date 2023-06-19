@@ -42,21 +42,27 @@ header h1 {
     color: white;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(15, 15, 15, 0.743);
-    padding: 10px;
+    margin-bottom: -20px;
 }
 header p {
     
     font-size: small;
     color: white;
+    padding: 10px;
+    padding-bottom: 20px;
     text-align: center; 
     text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.692); 
     
 }
+
 nav a {
+    font-size: 0.8em;
     color: white;
     text-decoration: none;
     padding-right: 0px;
-    padding-left: 15px;
+    padding-left: 10px;
+    width: 100%;
+    
 }
 nav a:hover {
     text-decoration: underline;        
